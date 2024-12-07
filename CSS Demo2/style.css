@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.navbar {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#heading {
+    margin: 10px;
+}
+
+.section {
+    padding-right: 10px;
+}
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+.main {
+    margin: 10px;
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 80%;
+}
+.aside {
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: white;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+}
+.cards > div {
+    border: 1px solid black;
+    /* margin-top: 0; */
+}
+
+.cards > div > h2 {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding:8px 20px;
+    margin-block-start: 0;
+
+}
+
+.inner {
+    font-size: 15px;
+    padding: 0 20px;
+}

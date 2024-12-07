@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }  
+header {
+    width: 100%;
+}
+#instruction {
+    background-color: yellow;
+    text-align: center;
+    padding: 30px 0;
+    font-weight: bold;
+}
+#header-container {
+    background-color: #37d6b6;
+    border: 1px solid #37d6b6;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+}
+.navbar {
+    display: flex;
+    background-color: black;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+
+}
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+.content {
+    display: flex;
+}
+#flex1 {
+    flex: 40%;
+    background-color: lightgrey;
+    padding: 10px;
+}
+#flex2 {
+    flex: 60%;
+    padding: 10px;
+}
+.footer {
+    background-color: rgb(194, 190, 190);
+    text-align: center;
+    padding: 30px;
+}
